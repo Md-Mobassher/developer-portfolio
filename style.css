@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 section{
-    height: 600px;
+    height: 500px;
     margin-bottom: 150px;
 }
 .top-banner{
@@ -21,6 +21,7 @@ section{
 .half-width img{
     width: 100%;
 }
+
 h1{
     font-size: 50px;
 }
@@ -37,7 +38,21 @@ h1 span{
     text-decoration: none;
     background: linear-gradient(45deg, rgb(241, 20, 186), rgb(123, 65, 199));
     border-radius: 5px; 
-    padding: 10px 40px;
+    padding: 15px 40px;
     font-weight: 700;
     color: #fff;margin-top: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.rashed{
+    border-radius: 50%;
+}
+h2{
+    font-size: 40px;
 }
