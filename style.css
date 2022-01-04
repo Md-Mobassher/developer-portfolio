@@ -56,3 +56,28 @@ h1 span{
 h2{
     font-size: 40px;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 150px;
+}
+.developer div{
+    box-shadow: 5px 7px 40px gray;
+    height: 330px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
